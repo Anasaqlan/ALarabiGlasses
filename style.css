@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(36, 5, 121) ;
+    color: white;
+    border-radius: 50px;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+  margin-top: 20px;  
+}
+nav li{
+    list-style: none;
+    height: 5vh;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(36, 5, 121);
+    border-radius: 10px;
+}
+nav li a:hover{
+    background-color: rgb(173, 195, 236);
+    border-radius:10px;
+} 
+li:hover{
+  
+    scale: 1.1;
+}   
+
+img{
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 17%;
+}
+marquee{
+    background-color:rgb(36, 5, 121);
+    height: 7vh;
+    color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+    font-size: 30px;
+}

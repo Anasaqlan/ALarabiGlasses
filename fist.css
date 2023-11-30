@@ -1,0 +1,49 @@
+
+.box{
+  width: 65%;
+display: flex;
+justify-content: space-evenly;
+margin: 0 auto;
+text-align: center;
+flex-flow: row wrap;
+gap: 10px;
+font-size: 25px;
+}
+.ca{
+  width: calc(75% /3);
+   height: 40vh;
+   background-color: #4e4e4e ;
+   border-radius: 10%;
+   box-shadow: 0 9px 66px #4e4e4e;
+   transition: 0.5s;
+   margin: 10px;
+   margin-top: 20px;
+   transition: 0.9s;
+   
+}
+.ca:hover{
+  scale: 1.1;
+}
+.ca img{
+  width: 100%;
+  margin: 0 auto;
+  height: 30vh;
+
+  border-radius: 10px 10px 0 0;
+}
+
+.last{
+  display: flex;
+background-color: rgb(36, 5, 121);
+margin-top: 20px;
+}
+.last img{
+  height: 13vh;
+  border-radius: 50px;
+}
+
+
+
+
+
+
